@@ -24,7 +24,9 @@ nav ul {
 	text-align: center;
 	font-size: 30px;
 	color: #dddddd;
-	font-family: archive;
+	font-family: Passion One;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 nav ul li {
 	display: inline-block;
@@ -40,7 +42,9 @@ nav ul li {
 	font-size: 40px;
 	color: #dddddd;
 	display: none;
-	font-family: archive;
+	font-family: Passion One;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 .maincontainer {
 	height: 924px;
@@ -60,11 +64,13 @@ nav ul li {
 .infocontainer>h1 {
 	font-size: 60px;
 	color: black;
-	font-family: archive;
+	font-family: Passion One;
 	padding-top: 20px;
 	padding-bottom: 70px;
 	margin: 0;
 	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 .centercontainer {
 	width: 60%;
@@ -93,9 +99,11 @@ nav ul li {
 .infocontainer>.centercontainer>h1 {
 	display: block;
 	text-align: center;
-	font-size: 20px;
+	font-size: 30px;
 	color: black;
-	font-family: archive;
+	font-family: Passion One;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 	padding: 0;
 }
 .grassblock {
@@ -128,6 +136,9 @@ nav ul li {
 	.gap {
 		padding: 0 5px;
 	}
+	.infocontainer>.centercontainer>h1 {
+		font-size: 25px;
+	}
 }
 @media screen and (max-width: 360px) {
 	.logos {
@@ -137,6 +148,9 @@ nav ul li {
 	.grassblock {
 		height: 50px;
 		width: 50px;
+	}
+	.infocontainer>h1{
+		font-size: 40px;
 	}
 	.infocontainer>.centercontainer>h1 {
 		font-size: 15px;
