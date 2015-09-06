@@ -8,27 +8,24 @@ header {
 	padding: 0;
 	margin: auto;
 }
-.kickstvlogo {
-	position: absolute;
-    top: 0; bottom:0; left: 0; right:0;
-    margin: auto;
-    height: 300px;
-    width: 300px;
-}
 a {
 	text-decoration: none;
 	color: inherit;
 }
 nav ul {
 	overflow: hidden;
-	padding: 0;
-	margin: 0;
+	padding: 0 0 0 0;
+	margin: 0px;
 	text-align: center;
+	background-color: #0e0028;
 	font-size: 30px;
 	color: #dddddd;
-	font-family: Passion One;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	font-family: archive;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
 }
 nav ul li {
 	display: inline-block;
@@ -44,9 +41,52 @@ nav ul li {
 	font-size: 40px;
 	color: #dddddd;
 	display: none;
-	font-family: Passion One;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+	font-family: archive;
+}
+.dropdownicon {
+	display: none;
+}
+.hvr-sweep-to-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-top:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #0ba6f8;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
+  color: white;
+}
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
 }
 .maincontainer {
 	height: 924px;
@@ -56,6 +96,12 @@ nav ul li {
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+}
+.kickstvlogo {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	padding: 200px 0 0 0;
 }
 .infocontainer {
 	height: 700px;
@@ -95,11 +141,21 @@ nav ul li {
 	padding: 20px 0px;
 	cursor: pointer;
 }
+.clicklogos {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	padding: 20px 0px;
+	cursor: pointer;
+}
 .logos:hover {
 	opacity: 0.3;
 }
+.clicklogos:hover {
+	opacity: 0.3;
+}
 .infocontainer>.centercontainer>h1 {
-	display: block;
+	display: none;
 	text-align: center;
 	font-size: 30px;
 	color: black;
@@ -108,12 +164,19 @@ nav ul li {
 	letter-spacing: 2px;
 	padding: 0;
 }
+.showtext {
+	display: block;
+}
 .grassblock {
 	display: block;
 	height: 80px;
 	width: 80px;
 	margin: auto;
 	padding-top: 10px;
+	cursor: pointer;
+}
+.grassblock:hover {
+	opacity: 0.6;
 }
 @media screen and (max-width: 800px) {
 	nav ul {
@@ -148,6 +211,10 @@ nav ul li {
 		width: 50px;
 	}
 	.grassblock {
+		height: 50px;
+		width: 50px;
+	}
+	.clicklogos {
 		height: 50px;
 		width: 50px;
 	}
