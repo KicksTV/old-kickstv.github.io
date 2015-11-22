@@ -30,21 +30,7 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	padding: 10px;
-}
-.handle {
-	width: 100%;
-	background-color: #0e0028;
-	text-align: left;
-	box-sizing: border-box;
-	padding: 20px 15px;
-	cursor: pointer;
-	font-size: 40px;
-	color: #dddddd;
-	display: none;
-	font-family: archive;
-}
-.dropdownicon {
-	display: none;
+	color: lightgray;
 }
 .hvr-sweep-to-top {
   display: inline-block;
@@ -103,14 +89,13 @@ nav ul li {
 	margin-right: auto;
 	padding: 200px 0 0 0;
 }
-.infocontainer {
-	height: 700px;
+.mediacontainer {
 	width: 100%;
 	padding: 0;
 	margin: 0;
 }
-.infocontainer>h1 {
-	font-size: 60px;
+.container>h1 {
+	font-size: 40px;
 	color: black;
 	font-family: Passion One;
 	padding-top: 20px;
@@ -120,108 +105,23 @@ nav ul li {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
-.centercontainer {
-	width: 60%;
-	height: 500px;
-	margin: auto;
-	border: 1px solid black;
+.btn-lg {
+	width: 150px;
+	height: 70px;
 }
-.gap {
-	display: inline-block;
-	padding: 0 100px;
-}
-.imagecontainer {
-	display: table;
-    margin: 0 auto;
-}
-.logos {
-	display: inline-block;
-	height: 80px;
-	width: 80px;
-	padding: 20px 0px;
-	cursor: pointer;
-}
-.clicklogos {
-	display: inline-block;
-	height: 80px;
-	width: 80px;
-	padding: 20px 0px;
-	cursor: pointer;
-}
-.logos:hover {
-	opacity: 0.3;
-}
-.clicklogos:hover {
-	opacity: 0.3;
-}
-.infocontainer>.centercontainer>h1 {
-	display: none;
-	text-align: center;
-	font-size: 30px;
-	color: black;
-	font-family: Passion One;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	padding: 0;
-}
-.showtext {
-	display: block;
-}
-.grassblock {
-	display: block;
-	height: 80px;
-	width: 80px;
-	margin: auto;
-	padding-top: 10px;
-	cursor: pointer;
-}
-.grassblock:hover {
-	opacity: 0.6;
+.bluebg {
+	background-color: blue;
 }
 @media screen and (max-width: 800px) {
-	nav ul {
-		max-height: 0;
-	}
-	.showing {
-		max-height: 20em;
-	}
-	nav ul li {
-		box-sizing: border-box;
-		width: 100%;
-		padding: 15px;
-		text-align: left;
-	}
-	.handle {
-		display:block;
-	}
-	.dropdownicon {
-		display: block;
-		float: right;
-	}
-	.gap {
-		padding: 0 5px;
-	}
-	.infocontainer>.centercontainer>h1 {
+	.container>.row>h1 {
 		font-size: 25px;
 	}
 }
 @media screen and (max-width: 360px) {
-	.logos {
-		height: 50px;
-		width: 50px;
-	}
-	.grassblock {
-		height: 50px;
-		width: 50px;
-	}
-	.clicklogos {
-		height: 50px;
-		width: 50px;
-	}
-	.infocontainer>h1{
+	.container>h1{
 		font-size: 40px;
 	}
-	.infocontainer>.centercontainer>h1 {
+	.container>.row>h1 {
 		font-size: 15px;
 	}
 
