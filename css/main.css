@@ -105,9 +105,10 @@ nav ul li {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
-.btn-lg {
+.btn {
 	width: 150px;
 	height: 70px;
+	border-radius: 25px;
 }
 .bluebg {
 	background-color: blue;
