@@ -162,3 +162,30 @@ nav ul li {
 		font-size: 14px;
 	}
 }
+@media screen and (max-width: 357px) {
+	.btn-youtube {
+		width: 75px;
+		height: 35px;
+		font-size: 10px;
+	}
+	.btn-twitch {
+		width: 75px;
+		height: 35px;
+		font-size: 10px;
+	}
+	.btn-twitter {
+		width: 75px;
+		height: 35px;
+		font-size: 10px;
+	}
+	.twitchcontainer {
+		margin: 0 50px;
+	}
+	.buttoncontainer {
+		margin-top: 150px;
+	}
+	.kickstvlogo {
+		width: 150px;
+		height: 150px;
+	}
+}
