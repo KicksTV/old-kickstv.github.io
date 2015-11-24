@@ -8,16 +8,128 @@ header {
 	padding: 0;
 	margin: auto;
 }
+.maincontainer {
+	height: 902px;
+	width: 100%;
+	background: url(/img/Background2.png) no-repeat;
+	background-position: left top;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	padding: 80px 0 50px 0;
+	margin: 0;
+}
+.infocontainer {
+	width: 70%;
+	height: 50px;
+	margin: auto;
+	padding: 0;
+	background-color: #171717;
+}
+.textcontainer {
+	padding: 10px 0 0 0;
+	margin: 0;
+ 	background: #D2D2D2;
+	width: 100px;
+	height: 40px;
+}
+.infocontainer>.textcontainer>h3 {
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	font-family: archive;
+	color: 171717;
+	font-size: 25px;
+}
+.centercontainer {
+	width: 70%;
+	height: 800px;
+	margin: auto;
+	padding: 50px 0 0 0;
+	border-radius: 0 0 10px 10px;
+ 	background: #D2D2D2;
+}
+.posts {
+	width: 70%;
+	margin: auto;
+}
+.post {
+	background: url(/img/Background2.png) no-repeat;
+	background-position: left top;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	padding: 80px 0 50px 0;
+}
+.centercontainer>.posts>ul {
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	font-size: 20px;
+}
+.post-container {
+	width: 70%;
+	height: 60px;
+	margin: auto;
+	padding: 0;
+	background-color: #171717;
+}
+.post-title-container {
+	padding: 10px 0 0 0;
+	margin: 0;
+ 	background: #D2D2D2;
+	width: 220px;
+	height: 60px;	
+}
+.post-header {
+	width: 70%;
+	height: 800px;
+	margin: auto;
+	padding: 50px 0 0 0;
+	border-radius: 0 0 10px 10px;
+ 	background: #D2D2D2;
+}
+.post-title {
+	font-family: arial;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.post-meta {
+	margin-top: 3px;
+	margin-bottom: 0;
+	text-align: center;
+}
+.post-content {
+	font-size: 20px;
+	margin: 0 0 0 55px;
+}
+.footercontainer {
+	width: 100%;
+	height: 25px;
+	background-color: #171717;
+	margin: 0;
+	padding: 0;
+}
+.footercontainer>h3 {
+	text-align: center;
+	color: lightgrey;
+	font-size: 15px;
+	font-family: archive;
+	padding: 4px 0 0 0;
+	margin: 0;
+}
 a {
 	text-decoration: none;
 	color: inherit;
 }
-nav ul {
+nav>ul {
 	overflow: hidden;
 	padding: 0 0 0 0;
 	margin: 0px;
 	text-align: center;
-	background-color: #0e0028;
+	background-color: #171717;
 	font-size: 30px;
 	color: #dddddd;
 	font-family: archive;
@@ -27,7 +139,7 @@ nav ul {
 	-o-transition: max-height 0.4s;
 	transition: max-height 0.4s;
 }
-nav ul li {
+.headercontainer>nav>ul>a>li {
 	display: inline-block;
 	padding: 10px;
 	color: lightgray;
@@ -73,15 +185,6 @@ nav ul li {
 .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
-}
-.maincontainer {
-	height: 902px;
-	width: 100%;
-	background: url(/img/Background2.png) no-repeat;
-	background-position: left top;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
 }
 .kickstvlogo {
 	display: block;
@@ -155,7 +258,7 @@ nav ul li {
 	background-color: #8F42EE;
 }
 .btn-twitter:hover {
-	background-color: #8F42EE;
+	background-color: #63CBEE;
 }
 @media screen and (max-width: 800px) {
 	nav ul {
