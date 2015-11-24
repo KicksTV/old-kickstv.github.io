@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Passion One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Passion One'), local('PassionOne-Regular'), url(http://fonts.gstatic.com/s/passionone/v6/fY6k21F1QT2c_Oc3HRNDwiYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/K88pR3goAWT7BTt32Z01mxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
 body {
 	padding: 0;
 	margin: 0;
@@ -37,9 +51,10 @@ header {
 	padding: 0;
 	text-align: center;
 	margin: 0;
-	font-family: archive;
+	font-family: Passion One, sans-serif;
 	color: 171717;
 	font-size: 25px;
+	letter-spacing: 1px;
 }
 .centercontainer {
 	width: 70%;
@@ -116,9 +131,10 @@ header {
 	text-align: center;
 	color: lightgrey;
 	font-size: 15px;
-	font-family: archive;
+	font-family: Open Sans, sans-serif;
 	padding: 4px 0 0 0;
 	margin: 0;
+	letter-spacing: 1px;
 }
 a {
 	text-decoration: none;
@@ -130,14 +146,15 @@ nav>ul {
 	margin: 0px;
 	text-align: center;
 	background-color: #171717;
-	font-size: 30px;
+	font-size: 40px;
 	color: #dddddd;
-	font-family: archive;
+	font-family: Passion One, sans-serif;
 	-webkit-transition: max-height 0.4s;
 	-ms-transition: max-height 0.4s;
 	-moz-transition: max-height 0.4s;
 	-o-transition: max-height 0.4s;
 	transition: max-height 0.4s;
+	text-transform: uppercase;
 }
 .headercontainer>nav>ul>a>li {
 	display: inline-block;
