@@ -2,6 +2,7 @@
 layout: post
 title:  "First post"
 categories: First
+permalink:
 ---
 
 

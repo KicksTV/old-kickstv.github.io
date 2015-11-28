@@ -127,6 +127,14 @@ header {
 	margin: 0;
 	padding: 0;
 }
+.posts>ul>li>a {
+	color: #00A3D0;
+	font-size: 25px;
+	font-family: Open Sans, sans-serif;
+}
+.posts>ul>li>a:hover {
+    text-decoration: underline;
+}
 .footercontainer>h3 {
 	text-align: center;
 	color: lightgrey;
@@ -209,11 +217,13 @@ nav>ul {
 	margin-right: auto;
 	font-family: arial;
 	position: absolute;
+	width: 250px;
+	height: 250px;
 }
 .ktvcontainer {
 	margin: auto;
-	width: 200px;
-	height: 199px;
+	width: 250px;
+	height: 250px;
 	padding: 9em 0 0 0;
 }
 .maincontainer>.ktvcontainer>h3 {
@@ -222,7 +232,7 @@ nav>ul {
 	text-align: center;
 	font-size: 5em;
 	letter-spacing: 2.5px;
-	margin-top: 55px;
+	margin-top: 80px;
 	text-shadow: 1px 3px #565656;
 }
 .buttoncontainer {
@@ -233,7 +243,7 @@ nav>ul {
 }
 .youtubecontainer {
 	display: inline;
-	width: 146px;
+	width: 150px;
 	padding: 0;
 	margin-top: 100px;
 }
@@ -256,6 +266,7 @@ nav>ul {
 	border-radius: 15px;
 	color: lightgrey;
 	font-size: 20px;
+	font-family: Open Sans, sans-serif;
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
@@ -267,6 +278,7 @@ nav>ul {
 	border-radius: 15px;
 	color: lightgrey;
 	font-size: 20px;
+	font-family: Open Sans, sans-serif;
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
@@ -278,6 +290,7 @@ nav>ul {
 	border-radius: 15px;
 	color: lightgrey;
 	font-size: 20px;
+	font-family: Open Sans, sans-serif;
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
@@ -294,10 +307,10 @@ nav>ul {
 }
 @media screen and (max-width: 800px) {
 	nav ul {
-		font-size: 14px;
+		font-size: 18px;
 	}
 }
-@media screen and (max-width: 357px) {
+@media screen and (max-width: 400px) {
 	.btn-youtube {
 		width: 75px;
 		height: 35px;
@@ -317,10 +330,19 @@ nav>ul {
 		margin: 0 20px;
 	}
 	.buttoncontainer {
+		margin: 0 auto;
 		margin-top: 150px;
 	}
 	.kickstvlogo {
 		width: 150px;
 		height: 150px;
+	}
+	.ktvcontainer {
+		width: 150px;
+		height: 150px;
+	}
+	.maincontainer>.ktvcontainer>h3 {
+	font-size: 3.5em;
+	margin-top: 45px;
 	}
 }
