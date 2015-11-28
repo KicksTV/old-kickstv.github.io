@@ -53,8 +53,8 @@ header {
 	margin: 0;
 	font-family: Passion One, sans-serif;
 	color: 171717;
-	font-size: 25px;
-	letter-spacing: 1px;
+	font-size: 28px;
+	letter-spacing: 2px;
 }
 .centercontainer {
 	width: 70%;
@@ -207,8 +207,23 @@ nav>ul {
 	display: block;
     margin-left: auto;
 	margin-right: auto;
-	padding: 200px 0 0 0;
 	font-family: arial;
+	position: absolute;
+}
+.ktvcontainer {
+	margin: auto;
+	width: 200px;
+	height: 199px;
+	padding: 9em 0 0 0;
+}
+.maincontainer>.ktvcontainer>h3 {
+	color: lightgrey;
+	font-family: Passion One, sans-serif;
+	text-align: center;
+	font-size: 5em;
+	letter-spacing: 2.5px;
+	margin-top: 55px;
+	text-shadow: 1px 3px #565656;
 }
 .buttoncontainer {
 	width: 658px;
