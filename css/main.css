@@ -311,6 +311,10 @@ nav>ul {
 	}
 }
 @media screen and (max-width: 400px) {
+	.buttoncontainer {
+		margin: 0 auto;
+		margin-top: 150px;
+	}
 	.btn-youtube {
 		width: 75px;
 		height: 35px;
@@ -329,10 +333,6 @@ nav>ul {
 	.twitchcontainer {
 		margin: 0 20px;
 	}
-	.buttoncontainer {
-		margin: 0 auto;
-		margin-top: 150px;
-	}
 	.kickstvlogo {
 		width: 150px;
 		height: 150px;
@@ -344,5 +344,9 @@ nav>ul {
 	.maincontainer>.ktvcontainer>h3 {
 	font-size: 3.5em;
 	margin-top: 45px;
+	}
+	.maincontainer {
+	height: 640px;
+	width: 100%;
 	}
 }
