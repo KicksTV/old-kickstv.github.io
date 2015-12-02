@@ -44,17 +44,16 @@ header {
 	padding: 10px 0 0 0;
 	margin: 0;
  	background: #D2D2D2;
-	width: 100px;
+	width: 20%;
 	height: 40px;
 }
 .infocontainer>.textcontainer>h3 {
 	padding: 0;
 	text-align: center;
 	margin: 0;
-	font-family: Passion One, sans-serif;
+	font-family: Open Sans, sans-serif;
 	color: 171717;
-	font-size: 28px;
-	letter-spacing: 2px;
+	font-size: 25px;
 }
 .centercontainer {
 	width: 70%;
@@ -236,7 +235,7 @@ nav>ul {
 	text-shadow: 1px 3px #565656;
 }
 .buttoncontainer {
-	width: 658px;
+	width: 354px;
 	height: 70px;
 	margin: 0 auto;
 	margin-top: 300px;
@@ -252,7 +251,7 @@ nav>ul {
 	width: 150px;
 	padding: 0;
 	margin-top: 100px;
-	margin: 0 100px;
+	margin: 0 0 0 50px;
 }
 .twittercontainer {
 	display: inline;
@@ -270,7 +269,7 @@ nav>ul {
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
-	background-color: #F72424	;
+	background-color: transparent;
 }
 .btn-twitch {
 	width: 150px;
@@ -282,19 +281,7 @@ nav>ul {
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
-	background-color: #7010E6;
-}
-.btn-twitter {
-	width: 150px;
-	height: 70px;
-	border-radius: 15px;
-	color: lightgrey;
-	font-size: 20px;
-	font-family: Open Sans, sans-serif;
-	margin: 0;
-	padding: 0;
-	cursor: pointer;
-	background-color: #44aacc;
+	background-color: transparent;
 }
 .btn-youtube:hover {
 	background-color: #F93E3E;
@@ -302,15 +289,7 @@ nav>ul {
 .btn-twitch:hover {
 	background-color: #8F42EE;
 }
-.btn-twitter:hover {
-	background-color: #63CBEE;
-}
-@media screen and (max-width: 800px) {
-	nav ul {
-		font-size: 18px;
-	}
-}
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 950px) {
 	.btn-youtube {
 		width: 75px;
 		height: 35px;
@@ -321,13 +300,8 @@ nav>ul {
 		height: 35px;
 		font-size: 10px;
 	}
-	.btn-twitter {
-		width: 75px;
-		height: 35px;
-		font-size: 10px;
-	}
 	.twitchcontainer {
-		margin: 0 20px;
+		margin: 0 0 0 20px;
 	}
 	.buttoncontainer {
 		margin: 0 auto;
@@ -344,5 +318,16 @@ nav>ul {
 	.maincontainer>.ktvcontainer>h3 {
 	font-size: 3.5em;
 	margin-top: 45px;
+	}
+	.infocontainer>.textcontainer>h3 {
+	font-size: 20px;
+	}
+}
+@media screen and (max-width: 800px) {
+	nav ul {
+		font-size: 18px;
+	}
+	.infocontainer>.textcontainer>h3 {
+	font-size: 18px;
 	}
 }
