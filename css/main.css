@@ -405,11 +405,49 @@ nav>ul {
 	margin-top: 70px;
 	}
 	.maincontainer {
-	height: 800px;
+	height: 1500px;
 	width: 100%;
+	}
+	.centercontainer {
+		padding-top: 30px;
 	}
 	.infocontainer>.textcontainer>h3 {
 	font-size: 20px;
+	}
+	.imageboxcontainer {
+	height: 15%;		
+	}
+	.imagecontainer1 {
+		width: 17%;
+		height: 100%;
+	}
+	.imagecontainer2 {
+		width: 17%;
+		height: 100%;
+	}
+	.imagecontainer3 {
+		width: 17%;
+		height: 100%;
+	}
+	.imagecontainer4 {
+		width: 17%;
+		height: 100%;
+	}
+	.imagecontainer5 {
+		width: 17%;
+		height: 100%;
+	}
+	.imagecontainer6 {
+		width: 17%;
+		height: 100%;
+	}
+	.imagecontainer7 {
+		width: 17%;
+		height: 100%;
+	}
+	.imagecontainer8 {
+		width: 17%;
+		height: 100%;
 	}
 }
 @media screen and (max-width: 800px) {
@@ -482,9 +520,61 @@ nav>ul {
 		padding-top: 25px;
 	}
 	.textcontainer {
-		
+
 	}
 	.infocontainer>.textcontainer>h3 {
 		font-size: 15px;
 	}
+	.infocontainer {
+		height: 30px;
+	}
+	.textcontainer {
+		width: 40%;
+		height: 30px;
+		padding-top: 6px;
+	}
+	.infocontainer>.textcontainer>h3 {
+		font-size: 12px;
+	}
+	.imagecontainer1 {
+		width: 17%;
+		height: 100%;
+		margin: 0 0px;
+	}
+	.imagecontainer2 {
+		width: 17%;
+		height: 100%;
+		margin: 0 0px;
+	}
+	.imagecontainer3 {
+		width: 17%;
+		height: 100%;
+		margin: 0 0px;
+	}
+	.imagecontainer4 {
+		width: 17%;
+		height: 100%;
+		margin: 0 0px;
+	}
+	.imagecontainer5 {
+		width: 17%;
+		height: 100%;
+		margin: 0 0px;
+	}
+	.imagecontainer6 {
+		width: 17%;
+		height: 100%;
+		margin: 0 0px;
+	}
+	.imagecontainer7 {
+		width: 17%;
+		height: 100%;
+		margin: 0 0px;
+	}
+	.imagecontainer8 {
+		width: 17%;
+		height: 100%;
+		margin: 0 0px;
+	}
+
 }
