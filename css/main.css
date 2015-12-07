@@ -472,4 +472,19 @@ nav>ul {
 	height: 550px;
 	width: 100%;
 	}
+	.centercontainer>.posts>ul {
+		font-size: 10px;
+	}
+	.posts>ul>li>a {
+		font-size: 15px;
+	}
+	.centercontainer {
+		padding-top: 25px;
+	}
+	.textcontainer {
+		
+	}
+	.infocontainer>.textcontainer>h3 {
+		font-size: 15px;
+	}
 }
