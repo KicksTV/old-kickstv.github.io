@@ -391,15 +391,13 @@ nav>ul {
 .btn-twitch:hover {
 	background-color: #8F42EE;
 }
-@media screen and (max-width: 800px) {
-	nav ul {
-		font-size: 18px;
-	}
-}
 @media screen and (max-width: 400px) {
 	.buttoncontainer {
-		margin: 0 auto;
+		text-align: center;
 		margin-top: 150px;
+	}
+	.ktvcontainer {
+	padding: 6em 0 0 0;		
 	}
 @media screen and (max-width: 950px) {
 	.btn-youtube {
@@ -430,7 +428,7 @@ nav>ul {
 	.maincontainer {
 	height: 640px;
 	width: 100%;
-	
+	}
 	.infocontainer>.textcontainer>h3 {
 	font-size: 20px;
 	}
