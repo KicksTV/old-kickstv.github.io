@@ -23,7 +23,7 @@ header {
 	margin: auto;
 }
 .maincontainer {
-	height: 902px;
+	height: 3000px;
 	width: 100%;
 	background: url(/img/Background2.png) no-repeat;
 	background-position: left top;
@@ -64,11 +64,20 @@ header {
 	border-radius: 0 0 5px 5px;
  	background: #D2D2D2;
 }
+.largeimagecontainer {
+	width: 90%;
+	height: 700px;
+	border: solid black 1px;
+	margin: 0 20px;
+	margin: auto;
+	margin-bottom: 100px;
+	display: none;
+}
 .imageboxcontainer {
 	width: 100%;
 	margin: auto;
-	height: 45%;
-	margin-bottom: 20px;
+	height: 450px;
+	margin-bottom: 40px;
 }
 .imageboxcenter {
 	width: 100%;
@@ -77,8 +86,8 @@ header {
 }
 .imagecontainer1 {
 	border: solid black 2px;
-	width: 20%;
-	height: 100%;
+	width: 230px;
+	height: 400px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/flag.jpg) no-repeat;
@@ -86,11 +95,12 @@ header {
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	cursor: pointer;
 }
 .imagecontainer2 {
 	border: solid black 2px;
-	width: 20%;
-	height: 100%;
+	width: 230px;
+	height: 400px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/poppy.jpg) no-repeat;
@@ -98,11 +108,12 @@ header {
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	cursor: pointer;
 }
 .imagecontainer3 {
 	border: solid black 2px;
-	width: 20%;
-	height: 100%;
+	width: 230px;
+	height: 400px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/norge.jpg) no-repeat;
@@ -110,11 +121,12 @@ header {
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	cursor: pointer;
 }
 .imagecontainer4 {
 	border: solid black 2px;
-	width: 20%;
-	height: 100%;
+	width: 230px;
+	height: 400px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/dare.jpg) no-repeat;
@@ -122,11 +134,12 @@ header {
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	cursor: pointer;
 }
 .imagecontainer5 {
 	border: solid black 2px;
-	width: 20%;
-	height: 100%;
+	width: 230px;
+	height: 400px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/beach.jpg) no-repeat;
@@ -134,11 +147,12 @@ header {
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	cursor: pointer;
 }
 .imagecontainer6 {
 	border: solid black 2px;
-	width: 20%;
-	height: 100%;
+	width: 230px;
+	height: 400px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/wales.jpg) no-repeat;
@@ -146,11 +160,12 @@ header {
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	cursor: pointer;
 }
 .imagecontainer7 {
 	border: solid black 2px;
-	width: 20%;
-	height: 100%;
+	width: 230px;
+	height: 400px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/stone.jpg) no-repeat;
@@ -158,11 +173,12 @@ header {
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	cursor: pointer;
 }
 .imagecontainer8 {
 	border: solid black 2px;
-	width: 20%;
-	height: 100%;
+	width: 230px;
+	height: 400px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/flag.jpg) no-repeat;
@@ -170,6 +186,7 @@ header {
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	cursor: pointer;
 }
 .posts {
 	width: 70%;
@@ -413,6 +430,9 @@ nav>ul {
 	}
 	.infocontainer>.textcontainer>h3 {
 	font-size: 20px;
+	}
+	.largeimagecontainer {
+		height: 300px;
 	}
 	.imageboxcontainer {
 	height: 15%;		
