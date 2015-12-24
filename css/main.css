@@ -64,7 +64,7 @@ header {
  	background: #D2D2D2;
 }
 .large_image_container {
-	width: 85%;
+	width: 1200px;
 	height: 650px;
 	border: solid black 1px;
 	margin: 0 20px;
