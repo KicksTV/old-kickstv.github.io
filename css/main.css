@@ -41,11 +41,10 @@ header {
 }
 .textcontainer {
 	display: inline-block;
-	padding: 10px 0 0 0;
 	margin: 0;
  	background: #D2D2D2;
 	width: 20%;
-	height: 40px;
+	height: 50px;
 }
 .infocontainer>.textcontainer>h3 {
 	padding: 0;
@@ -69,7 +68,7 @@ header {
 	border: solid black 1px;
 	margin: 0 20px;
 	margin: auto;
-	margin-bottom: 100px;
+	margin-bottom: 20px;
 	display: none;
 }
 #image1 {
@@ -125,82 +124,12 @@ header {
 	height: 100%;
 	text-align: center;
 }
-.imagecontainer1 {
+.imagecontainer {
 	border: solid black 2px;
 	width: 150px;
-	height: 320px;
+	height: 100px;
 	display: inline-block;
-	margin: 0 20px;
-	background: url(/img/Images/poppy.jpg) no-repeat;
-	background-position: center;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	cursor: pointer;
-}
-.imagecontainer2 {
-	border: solid black 2px;
-	width: 150px;
-	height: 320px;
-	display: inline-block;
-	margin: 0 20px;
-	background: url(/img/Images/norge.jpg) no-repeat;
-	background-position: left top;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	cursor: pointer;
-}
-.imagecontainer3 {
-	border: solid black 2px;
-	width: 150px;
-	height: 320px;
-	display: inline-block;
-	margin: 0 20px;
-	background: url(/img/Images/dare.jpg) no-repeat;
-	background-position: left top;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	cursor: pointer;
-}
-.imagecontainer4 {
-	border: solid black 2px;
-	width: 150px;
-	height: 320px;
-	display: inline-block;
-	margin: 0 20px;
-	background: url(/img/Images/beach.jpg) no-repeat;
-	background-position: left top;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	cursor: pointer;
-}
-.imagecontainer5 {
-	border: solid black 2px;
-	width: 150px;
-	height: 320px;
-	display: inline-block;
-	margin: 0 20px;
-	background: url(/img/Images/wales.jpg) no-repeat;
-	background-position: left top;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	cursor: pointer;
-}
-.imagecontainer6 {
-	border: solid black 2px;
-	width: 150px;
-	height: 320px;
-	display: inline-block;
-	margin: 0 20px;
-	background: url(/img/Images/stone.jpg) no-repeat;
-	background-position: center;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
+	margin: 0 5px;
 	cursor: pointer;
 }
 .posts {
@@ -423,6 +352,56 @@ nav>ul {
 .btn-twitch:hover {
 	background-color: #8F42EE;
 }
+@media screen and (max-width: 1300px) {
+	.imagecontainer {
+		width: 120px;
+		height: 230px;
+		margin: 0 7px;
+	}
+	.infocontainer>.textcontainer>h3 {
+		font-size: 22px;
+	}
+	.textcontainer {
+		height: 45px;
+	}
+	.infocontainer {
+		height: 45px;
+	}
+	.large_image_container {
+		width: 750px;
+		height: 400px;
+		margin: 0 20px;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.imagecontainer {
+		width: 100px;
+		height: 210px;
+		margin: 0 7px;
+	}
+
+}
+@media screen and (max-width: 1080px) {
+	nav ul {
+		font-size: 35px;
+	}
+	.imagecontainer {
+		width: 90px;
+		height: 190px;
+		margin: 0 7px;
+	}
+	.infocontainer>.textcontainer>h3 {
+	font-size: 20px;
+	}
+	.textcontainer {
+		height: 40px;
+	}
+	.infocontainer {
+	height: 40px;
+	}
+}	
 @media screen and (max-width: 950px) {
 	.kickstvlogo {
 		width: 200px;
@@ -443,46 +422,24 @@ nav>ul {
 	.centercontainer {
 		padding-top: 30px;
 	}
-	.infocontainer>.textcontainer>h3 {
-	font-size: 20px;
-	}
 	.largeimagecontainer {
 		height: 300px;
 	}
 	.imageboxcontainer {
-	height: 15%;		
+		height: 15%;		
 	}
-	.imagecontainer1 {
-		width: 17%;
-		height: 100%;
+	.imagecontainer {
+		width: 80px;
+		height: 180px;
 	}
-	.imagecontainer2 {
-		width: 17%;
-		height: 100%;
+	.infocontainer>.textcontainer>h3 {
+	font-size: 17px;
 	}
-	.imagecontainer3 {
-		width: 17%;
-		height: 100%;
+	.textcontainer {
+		height: 35px;
 	}
-	.imagecontainer4 {
-		width: 17%;
-		height: 100%;
-	}
-	.imagecontainer5 {
-		width: 17%;
-		height: 100%;
-	}
-	.imagecontainer6 {
-		width: 17%;
-		height: 100%;
-	}
-	.imagecontainer7 {
-		width: 17%;
-		height: 100%;
-	}
-	.imagecontainer8 {
-		width: 17%;
-		height: 100%;
+	.infocontainer {
+	height: 35px;
 	}
 }
 @media screen and (max-width: 800px) {
@@ -490,7 +447,18 @@ nav>ul {
 		font-size: 30px;
 	}
 	.infocontainer>.textcontainer>h3 {
-	font-size: 19px;
+	font-size: 14px;
+	}
+	.textcontainer {
+		height: 30px;
+	}
+	.infocontainer {
+		height: 30px;
+	}
+	.imagecontainer {
+		width: 70px;
+		height: 150px;
+		margin: 0 5px;	
 	}
 }
 @media screen and (max-width: 600px) {
@@ -498,7 +466,24 @@ nav>ul {
 		font-size: 25px;
 	}
 	.infocontainer>.textcontainer>h3 {
-	font-size: 19px;
+	font-size: 12px;
+	}
+	.textcontainer {
+		height: 25px;
+	}
+	.infocontainer {
+		height: 25px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.infocontainer>.textcontainer>h3 {
+		font-size: 10px;
+	}
+	.textcontainer {
+		height: 30px;
+	}
+	.infocontainer {
+		height: 30px;
 	}
 }
 @media screen and (max-width: 400px) {
@@ -558,7 +543,7 @@ nav>ul {
 
 	}
 	.infocontainer>.textcontainer>h3 {
-		font-size: 15px;
+		font-size: 7px;
 	}
 	.infocontainer {
 		height: 30px;
@@ -566,50 +551,6 @@ nav>ul {
 	.textcontainer {
 		width: 40%;
 		height: 30px;
-		padding-top: 6px;
-	}
-	.infocontainer>.textcontainer>h3 {
-		font-size: 12px;
-	}
-	.imagecontainer1 {
-		width: 17%;
-		height: 100%;
-		margin: 0 0px;
-	}
-	.imagecontainer2 {
-		width: 17%;
-		height: 100%;
-		margin: 0 0px;
-	}
-	.imagecontainer3 {
-		width: 17%;
-		height: 100%;
-		margin: 0 0px;
-	}
-	.imagecontainer4 {
-		width: 17%;
-		height: 100%;
-		margin: 0 0px;
-	}
-	.imagecontainer5 {
-		width: 17%;
-		height: 100%;
-		margin: 0 0px;
-	}
-	.imagecontainer6 {
-		width: 17%;
-		height: 100%;
-		margin: 0 0px;
-	}
-	.imagecontainer7 {
-		width: 17%;
-		height: 100%;
-		margin: 0 0px;
-	}
-	.imagecontainer8 {
-		width: 17%;
-		height: 100%;
-		margin: 0 0px;
 	}
 
 }
