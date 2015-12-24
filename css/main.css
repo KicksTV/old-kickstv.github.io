@@ -23,9 +23,8 @@ header {
 	margin: auto;
 }
 .maincontainer {
-	height: 3000px;
 	width: 100%;
-	background: url(/img/Background2.png) no-repeat;
+	background: url(/img/Images/wales.jpg) no-repeat;
 	background-position: left top;
     background-size: cover;
 	-webkit-background-size: cover;
@@ -64,14 +63,56 @@ header {
 	border-radius: 0 0 5px 5px;
  	background: #D2D2D2;
 }
-.largeimagecontainer {
-	width: 90%;
-	height: 700px;
+.large_image_container {
+	width: 85%;
+	height: 650px;
 	border: solid black 1px;
 	margin: 0 20px;
 	margin: auto;
 	margin-bottom: 100px;
 	display: none;
+}
+#image1 {
+	background: url(/img/Images/poppy.jpg) no-repeat;
+	background-position: center;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+#image2 {
+	background: url(/img/Images/norge.jpg) no-repeat;
+	background-position: left top;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+#image3 {
+	background: url(/img/Images/dare.jpg) no-repeat;
+	background-position: left top;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+#image4 {
+	background: url(/img/Images/beach.jpg) no-repeat;
+	background-position: left top;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+#image5 {
+	background: url(/img/Images/wales.jpg) no-repeat;
+	background-position: left top;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+#image6 {
+	background: url(/img/Images/stone.jpg) no-repeat;
+	background-position: center;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
 }
 .imageboxcontainer {
 	width: 100%;
@@ -86,21 +127,8 @@ header {
 }
 .imagecontainer1 {
 	border: solid black 2px;
-	width: 230px;
-	height: 400px;
-	display: inline-block;
-	margin: 0 20px;
-	background: url(/img/Images/flag.jpg) no-repeat;
-	background-position: left top;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	cursor: pointer;
-}
-.imagecontainer2 {
-	border: solid black 2px;
-	width: 230px;
-	height: 400px;
+	width: 150px;
+	height: 320px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/poppy.jpg) no-repeat;
@@ -110,10 +138,10 @@ header {
 	-moz-background-size: cover;
 	cursor: pointer;
 }
-.imagecontainer3 {
+.imagecontainer2 {
 	border: solid black 2px;
-	width: 230px;
-	height: 400px;
+	width: 150px;
+	height: 320px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/norge.jpg) no-repeat;
@@ -123,10 +151,10 @@ header {
 	-moz-background-size: cover;
 	cursor: pointer;
 }
-.imagecontainer4 {
+.imagecontainer3 {
 	border: solid black 2px;
-	width: 230px;
-	height: 400px;
+	width: 150px;
+	height: 320px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/dare.jpg) no-repeat;
@@ -136,10 +164,10 @@ header {
 	-moz-background-size: cover;
 	cursor: pointer;
 }
-.imagecontainer5 {
+.imagecontainer4 {
 	border: solid black 2px;
-	width: 230px;
-	height: 400px;
+	width: 150px;
+	height: 320px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/beach.jpg) no-repeat;
@@ -149,10 +177,10 @@ header {
 	-moz-background-size: cover;
 	cursor: pointer;
 }
-.imagecontainer6 {
+.imagecontainer5 {
 	border: solid black 2px;
-	width: 230px;
-	height: 400px;
+	width: 150px;
+	height: 320px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/wales.jpg) no-repeat;
@@ -162,27 +190,14 @@ header {
 	-moz-background-size: cover;
 	cursor: pointer;
 }
-.imagecontainer7 {
+.imagecontainer6 {
 	border: solid black 2px;
-	width: 230px;
-	height: 400px;
+	width: 150px;
+	height: 320px;
 	display: inline-block;
 	margin: 0 20px;
 	background: url(/img/Images/stone.jpg) no-repeat;
 	background-position: center;
-    background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	cursor: pointer;
-}
-.imagecontainer8 {
-	border: solid black 2px;
-	width: 230px;
-	height: 400px;
-	display: inline-block;
-	margin: 0 20px;
-	background: url(/img/Images/flag.jpg) no-repeat;
-	background-position: left top;
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
