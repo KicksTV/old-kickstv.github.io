@@ -1,4 +1,4 @@
-var imageclick1 = function() {
+var Portfolio = function() {
 	$('#image1').click(function() {
 		$('.large_image_container').show(100).attr('id', 'image1');
 	});
@@ -18,7 +18,12 @@ var imageclick1 = function() {
 		$('.large_image_container').show(100).attr('id', 'image6');
 	});
 
+	$('.X_icon').click(function() {
+		$('.large_image_container').hide();
+	});
+
 };
 
 
-$(document).ready(imageclick1);
+
+$(document).ready(Portfolio);
