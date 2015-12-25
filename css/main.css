@@ -369,8 +369,11 @@ nav>ul {
 	}
 }
 @media screen and (max-width: 1500px) {
+	nav>ul {
+		font-size: 30px;
+	}
 	.maincontainer {
-		padding: 20px 0 0 0;
+		padding: 0;
 
 	}
 	.large_image_container {
@@ -401,7 +404,22 @@ nav>ul {
 		text-shadow: 1px 3px #565656;
 	}
 	.buttoncontainer {
+		width: 294px;
+		height: 70px;
+		margin: 0 auto;
 		margin-top: 200px;
+	}
+	.btn-twitch {
+		width: 120px;
+		height: 60px;
+		border-radius: 12px;
+		font-size: 17px;
+	}
+	.btn-youtube {
+		width: 120px;
+		height: 60px;
+		border-radius: 12px;
+		font-size: 17px;
 	}
 }
 @media screen and (max-width: 1300px) {
