@@ -369,12 +369,39 @@ nav>ul {
 	}
 }
 @media screen and (max-width: 1500px) {
+	.maincontainer {
+		padding: 20px 0 0 0;
+
+	}
 	.large_image_container {
 		width: 900px;
 		height: 450px;
 		margin: 0 20px;
 		margin: auto;
 		margin-bottom: 20px;
+	}
+	.kickstvlogo {
+		display: block;
+	    margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+		height: 200px;
+	}
+	.ktvcontainer {
+		margin: auto;
+		width: 200px;
+		height: 200px;
+		padding: 9em 0 0 0;
+	}
+	.maincontainer>.ktvcontainer>h3 {
+		text-align: center;
+		font-size: 4.5em;
+		letter-spacing: 2.5px;
+		margin-top: 60px;
+		text-shadow: 1px 3px #565656;
+	}
+	.buttoncontainer {
+		margin-top: 200px;
 	}
 }
 @media screen and (max-width: 1300px) {
@@ -442,8 +469,8 @@ nav>ul {
 }	
 @media screen and (max-width: 950px) {
 	.kickstvlogo {
-		width: 200px;
-		height: 200px;
+		width: 150px;
+		height: 150px;
 	}
 	.ktvcontainer {
 		width: 200px;
