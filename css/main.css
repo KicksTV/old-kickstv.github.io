@@ -46,7 +46,12 @@ header {
 	width: 20%;
 	height: 50px;
 }
-.infocontainer>.textcontainer>h3 {
+.center {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.infocontainer>.textcontainer>.center>h3 {
 	padding: 0;
 	text-align: center;
 	margin: 0;
@@ -433,7 +438,7 @@ nav>ul {
 		height: 100px;
 		margin: 0 7px;
 	}
-	.infocontainer>.textcontainer>h3 {
+	.infocontainer>.textcontainer>.center>h3 {
 		font-size: 22px;
 	}
 	.textcontainer {
@@ -473,7 +478,7 @@ nav>ul {
 		height: 100px;
 		margin: 0 7px;
 	}
-	.infocontainer>.textcontainer>h3 {
+	.infocontainer>.textcontainer>.center>h3 {
 	font-size: 20px;
 	}
 	.textcontainer {
@@ -524,7 +529,7 @@ nav>ul {
 		width: 150px;
 		height: 100px;
 	}
-	.infocontainer>.textcontainer>h3 {
+	.infocontainer>.textcontainer>.center>h3 {
 	font-size: 17px;
 	}
 	.textcontainer {
@@ -538,7 +543,7 @@ nav>ul {
 	nav ul {
 		font-size: 30px;
 	}
-	.infocontainer>.textcontainer>h3 {
+	.infocontainer>.textcontainer>.center>h3 {
 	font-size: 14px;
 	}
 	.textcontainer {
@@ -557,7 +562,7 @@ nav>ul {
 	nav ul {
 		font-size: 25px;
 	}
-	.infocontainer>.textcontainer>h3 {
+	.infocontainer>.textcontainer>.center>h3 {
 	font-size: 12px;
 	}
 	.textcontainer {
@@ -568,7 +573,7 @@ nav>ul {
 	}
 }
 @media screen and (max-width: 500px) {
-	.infocontainer>.textcontainer>h3 {
+	.infocontainer>.textcontainer>.center>h3 {
 		font-size: 10px;
 	}
 	.textcontainer {
@@ -631,15 +636,39 @@ nav>ul {
 	.centercontainer {
 		padding-top: 25px;
 	}
-	.infocontainer>.textcontainer>h3 {
+	.infocontainer>.textcontainer>.center>h3 {
 		font-size: 7px;
 	}
 	.infocontainer {
-		height: 30px;
+		height: 20px;
+		padding: 0;
+		margin: auto;
 	}
 	.textcontainer {
 		width: 40%;
-		height: 30px;
+		height: 20px;
+		display: inline-block;
+	}
+	.large_image_container {
+		width: 230px;
+		height: 150px;
+		margin: 0 20px;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.large_image_container>img {
+		width: 15px;
+		height: 15px;
+	}
+	.imagecontainer {
+		width: 80px;
+		height: 50px;
+	}
+	.posts>ul>li>a {
+		font-size: 12px;
+	}
+	.posts>ul>li>p {
+		font-size: 8px;
 	}
 
 }
