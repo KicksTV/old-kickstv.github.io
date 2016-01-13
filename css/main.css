@@ -32,18 +32,10 @@ header {
 	padding: 80px 0 50px 0;
 	margin: 0;
 }
-.infocontainer {
-	width: 70%;
-	height: 50px;
-	margin: auto;
-	padding: 0;
-	background-color: #171717;
-}
 .textcontainer {
-	display: inline-block;
-	margin: 0;
- 	background: #D2D2D2;
-	width: 20%;
+	margin: auto;
+ 	background: #B9B9B9;
+	width: 70%;
 	height: 50px;
 }
 .center {
@@ -51,7 +43,7 @@ header {
 	top: 50%;
 	transform: translateY(-50%);
 }
-.infocontainer>.textcontainer>.center>h3 {
+.textcontainer>.center>h3 {
 	padding: 0;
 	text-align: center;
 	margin: 0;
@@ -63,7 +55,7 @@ header {
 	width: 70%;
 	height: 900px;
 	margin: auto;
-	padding: 70px 0 0 0;
+	padding: 40px 0 0 0;
 	border-radius: 0 0 5px 5px;
  	background: #D2D2D2;
 }
@@ -101,6 +93,7 @@ header {
 	display: inline-block;
 	margin: 0 5px;
 	cursor: pointer;
+	margin-top: 70px;
 }
 #image1 {
 	background: url(/img/Images/poppy.jpg) no-repeat;
@@ -172,7 +165,7 @@ header {
 .post-title-container {
 	padding: 10px 0 0 0;
 	margin: 0;
- 	background: #D2D2D2;
+ 	background: #B9B9B9;
 	height: 60px;	
 }
 .post-header {
@@ -369,7 +362,6 @@ nav>ul {
 		height: 550px;
 		margin: 0 20px;
 		margin: auto;
-		margin-bottom: 20px;
 	}
 }
 @media screen and (max-width: 1500px) {
