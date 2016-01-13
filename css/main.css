@@ -672,6 +672,9 @@ nav>ul {
 		width: 15px;
 		height: 15px;
 	}
+	.centercontainer {
+		height: 400px;
+	}
 	.imagecontainer {
 		width: 80px;
 		height: 50px;
