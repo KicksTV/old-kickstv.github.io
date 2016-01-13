@@ -193,7 +193,7 @@ header {
 }
 .post-content {
 	font-size: 20px;
-	margin: 0 0 0 55px;
+	margin: 0 55px 0 55px;
 }
 .footercontainer {
 	width: 100%;
@@ -671,6 +671,18 @@ nav>ul {
 	.large_image_container>img {
 		width: 15px;
 		height: 15px;
+	}
+	.post-title-container>h1 {
+		font-size: 15px;
+	}
+	.post-title-container>p {
+		font-size: 12px;
+	}
+	.post-content {
+		margin: 0 10px 0 10px;
+	}
+	.post-content>p {
+		font-size: 13px;
 	}
 	.centercontainer {
 		height: 400px;
