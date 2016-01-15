@@ -507,12 +507,12 @@ nav>ul {
 		height: 150px;
 	}
 	.ktvcontainer {
-		width: 200px;
-		height: 200px;
+		width: 150px;
+		height: 150px;
 	}
 	.maincontainer>.ktvcontainer>h3 {
 	font-size: 3.5em;
-	margin-top: 70px;
+	margin-top: 45px;
 	}
 	.maincontainer {
 	height: 1500px;
